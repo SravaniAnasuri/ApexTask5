@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin-bottom: 2px;
+    text-align: center;
+  }
+  
+  .navbar a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  .hero {
+    background-color: #f4f4f4;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+  }
+
+  .hero {
+    background-image: url('https://t4.ftcdn.net/jpg/08/49/35/61/360_F_849356126_liOs0EupPx6orE0Q2Rx2y1paU1KtmqMr.jpg');
+    height: 350px;
+    width: 100%;
+    background-size: auto;
+    text-align: center;
+    padding: 200px 50px;
+    color: white;
+  }
+  
+  /* Section Styles */
+  .hero, .instructors-section, .workout-section, .preview-section {
+    padding: 20px;
+    text-align: center;
+  }
+ 
+  .instructors-grid, .workout-grid, .preview-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  .instructor-card, .workout-card, .preview-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+  }
+  .instructor-card img, .workout-card img, .preview-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .workout-card {
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .workout-card img {
+    max-width: 100%;
+  }
+
+  .contact-section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.3s ease;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #3498db;
+  }
+  
+  input[type="email"], input[type="text"], textarea {
+    width: 100%;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  .submit-btn {
+    padding: 12px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .contact-section {
+      padding: 1rem;
+    }
+  
+    h2 {
+      font-size: 1.6rem;
+    }
+    
+    .form-group {
+      gap: 0.8rem;
+    }
+  
+    .submit-btn {
+      font-size: 1rem;
+      padding: 10px 18px;
+    }
+  }
+
+  /* cardio design */
+  .cardio-hero h2,h3,p {
+    text-align: center;
+  }
+  .cardio-hero button {
+    text-align: center;
+  }
+
+  .cardio-details h3,p,ul li, ol li  {
+    text-align: center;
+  }
+  
+  .cta-section{
+    text-align: center;
+  }
+  .strength-hero h2{
+    text-align: center;
+  }
+
+ .strength-details h2{
+  text-align: center;
+ }
+ .yoga-hero h2{
+  text-align: center;
+ }
+  
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  

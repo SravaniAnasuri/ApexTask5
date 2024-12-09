@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fitness Web App to help you stay fit and healthy">
+  <link rel="stylesheet" href="style.css">
+  <title>FitnessPro</title>
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <h1>FitnessPro</h1>
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#instructors">Instructors</a>
+        <a href="#workouts">Workout Plans</a>
+        <a href="#preview">Preview</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+    <!-- Instructors Section -->
+    <section id="instructors" class="instructors-section">
+      <h2>Meet Our Instructors</h2>
+      <div class="instructors-grid">
+        <div class="instructor-card">
+          <img src="./images/img1.jpg" alt="Instructor 1" loading="lazy">
+          <h3>Ravi Varma</h3>
+          <p>Expert in Strength Training</p>
+        </div>
+        <div class="instructor-card">
+          <img src="./images/img4.png" width="600" height="400" alt="Instructor 2" loading="lazy">
+          <h3>Sravya</h3>
+          <p>Certified Yoga Instructor</p>
+        </div>
+        <div class="instructor-card">
+          <img src="./images/img8.jpg" width="600" height="500" alt="Instructor 3" loading="lazy">
+          <h3>Mike Brown</h3>
+          <p>Cardio and HIIT Specialist</p>
+        </div>
+        <div class="instructor-card">
+            <img src="./images/img2.jpg" width="600" height="500" alt="Instructor 4" loading="lazy">
+            <h3>Jenny</h3>
+            <p>Cardio and HIIT Specialist</p>
+          </div>
+          <div class="instructor-card">
+            <img src="./images/img3.jpg" width="600" height="400" alt="Instructor 5" loading="lazy">
+            <h3>Akash</h3>
+            <p>Cardio and HIIT Specialist</p>
+          </div>
+          <div class="instructor-card">
+            <img src="./images/img9.jpg" width="600" height="400" alt="Instructor  6" loading="lazy">
+            <h3>Shilpa Setty</h3>
+            <p>Cardio and HIIT Specialist</p>
+          </div>
+          <div class="instructor-card">
+            <img src="./images/img6.webp" width="600" height="400" alt="Instructor 7" loading="lazy">
+            <h3>Karthik</h3>
+            <p>Cardio and HIIT Specialist</p>
+          </div>
+          <div class="instructor-card">
+            <img src="./images/img7.jpg" width="600" height="400" alt="Instructor 8" loading="lazy">
+            <h3>Navya</h3>
+            <p>Cardio and HIIT Specialist</p>
+          </div>
+      </div>
+    </section>
+
+
+
+    <!-- Workout Plans Section -->
+    <section id="workouts" class="workout-section">
+      <h2>Workout Plans</h2>
+    <div class="workout-grid">
+      <div class="workout-card">
+        <img src="./images/img10.avif" alt="Cardio Workout" loading="lazy">
+        <h3>Cardio Workout</h3>
+        <p>Boost your stamina with these cardio exercises.</p>
+        <a href="cardio.html" class="btn">To Know More</a>
+      </div>
+      
+      <div class="workout-card">
+        <img src="./images/img11.jpg" alt="Strength Training" loading="lazy">
+        <h3>Strength Training</h3>
+        <p>Build strength with these effective routines.</p>
+        <a href="strength-training.html" class="btn">To Know More</a>
+      </div>
+      
+      <div class="workout-card">
+        <img src="./images/img12.jpg" alt="Yoga Session" loading="lazy">
+        <h3>Yoga Session</h3>
+        <p>Relax and rejuvenate with guided yoga sessions.</p>
+        <a href="yoga-session.html" class="btn">To Know More</a>
+      </div>
+    </div>
+    </section>
+
+    <!-- Preview Section -->
+    <section id="preview" class="preview-section">
+      <h2>Preview Our Fitness Features</h2>
+      <div class="preview-grid">
+        <div class="preview-item">
+          <img src="./images/img13.jpg" alt="Fitness Dashboard" loading="lazy">
+          <h3>Fitness Dashboard</h3>
+          <p>Track your progress and stay motivated.</p>
+        </div>
+        <div class="preview-item">
+          <img src="./images/img14.jpg" alt="Personalized Plans" loading="lazy">
+          <h3>Personalized Plans</h3>
+          <p>Custom workout routines tailored to your goals.</p>
+        </div>
+        <div class="preview-item">
+          <img src="./images/img15.jpg" alt="Community Support" loading="lazy">
+          <h3>Community Support</h3>
+          <p>Join a thriving community of fitness enthusiasts.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- contact form -->
+  <section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+      </div>
+      
+      <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+  </section>
+  
+
+<footer >
+    <p>&copy; 2024 FitnessPro. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
